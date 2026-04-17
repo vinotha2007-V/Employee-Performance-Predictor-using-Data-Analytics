@@ -1,0 +1,28 @@
+Employee-Performance-Predictor/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── EDA.ipynb
+│   ├── preprocessing.ipynb
+│   └── modeling.ipynb
+│
+├── src/
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model.py
+│   └── evaluation.py
+│
+├── app/
+│   └── app.py
+│
+├── outputs/
+│   ├── plots/
+│   └── reports/
+│
+├── main.py
+├── requirements.txt
+└── README.md
