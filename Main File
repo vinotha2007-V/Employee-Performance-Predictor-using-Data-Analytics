@@ -1,0 +1,14 @@
+from src.data_loader import load_data
+from src.preprocessing import preprocess
+from src.feature_engineering import feature_engineering
+from src.model import train_model
+from src.evaluation import evaluate
+
+df = load_data("data/raw/employee.csv")
+df = preprocess(df)
+df = feature_engineering(df)
+
+model, X_test, y_test = train_model(df)
+acc = evaluate(model, X_test, y_test)
+
+print("Model Accuracy:", acc)
