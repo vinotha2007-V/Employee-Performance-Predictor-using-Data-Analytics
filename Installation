@@ -1,0 +1,4 @@
+git clone https://github.com/yourusername/Employee-Performance-Predictor.git
+cd Employee-Performance-Predictor
+
+pip install -r requirements.txt
